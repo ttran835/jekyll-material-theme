@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.4.3'
+ruby '2.5.3'
 
 gem 'materialize-sass'
 gem "jekyll", "~> 3.6.2"
@@ -11,6 +11,7 @@ gem "selenium-webdriver"
 gem "rack-jekyll"
 gem "pry"
 gem "puma"
+gem "jekyll-material-theme"
 
 
 group :jekyll_plugins do
@@ -21,4 +22,4 @@ end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gemspec
+
